@@ -1,0 +1,24 @@
+BODY {
+	background-color: black;
+	font-family: sans-serif;
+	color: white;
+	margin: 0.5ex;
+}
+A {
+	color: rgb(100,100,255);
+}
+A:visited {
+	color: rgb(180,100,255);
+}
+P, OL, DIV {
+	color: white;
+	width: 640px;
+}
+H3, P, DIV {
+	margin-left: 1em;
+}
+H2 SPAN {
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	padding-right: 0.5ex;
+}
