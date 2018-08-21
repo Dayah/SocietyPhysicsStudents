@@ -37,7 +37,6 @@ H3 {
 	filter: glow(color=blue, strength=3);
 	color: white;
 	font-family: sans-serif;
-	font-size: 1.2em;
 	position: absolute;
 }
 A {
@@ -66,13 +65,17 @@ H3 A:active {
 }
 #forum {
 	left: 27%;
-	top: 50%;
+	top: 49%;
 }
 #research {
 	left: 60%;
 	top: 47%;
 }
-#ut {
+#aip {
+	left: 51%;
 	top: 60%;
-	left: 52%;
+}
+#ut {
+	left: 34%;
+	top: 64%;
 }
