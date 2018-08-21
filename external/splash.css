@@ -3,7 +3,9 @@ BODY {
 	margin: 0;
 }
 H1 {
-	filter: glow(color=red, strength=5); 
+	filter: progid:DXImageTransform.Microsoft.Glow(Color=red,Strength=5);
+	filter: glow(color=red, strength=5);
+	text-shadow: 0 0 3px red, 0 0 5px red, 0 0 8px red; // ADDED IN 2018	
 	color: rgb(0,0,80);
 	font-family: sans-serif;
 	font-size: x-large;
@@ -35,6 +37,7 @@ H2 {
 }
 H3 {
 	filter: glow(color=blue, strength=3);
+	text-shadow: 0 0 3px blue, 0 0 5px blue; // ADDED IN 2018	
 	color: white;
 	font-family: sans-serif;
 	position: absolute;
@@ -47,6 +50,7 @@ H3 A:hover {
 	height: 1.5em;
 	color: rgb(200,200,255);
 	filter: glow(color=blue, strength=5);
+	text-shadow: 0 0 3px blue, 0 0 5px blue, 0 0 8px blue; // ADDED IN 2018	
 }
 H3 A:active {
 	color: red;
